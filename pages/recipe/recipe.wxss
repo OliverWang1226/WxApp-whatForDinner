@@ -1,0 +1,53 @@
+/* pages/recipe/recipe.wxss */
+.metiral {
+    margin-top: -35%;
+}
+
+.metiral_label,
+.step_label {    
+    font-style: bold;
+    color: #8B4C39;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.step_label {
+    margin-bottom: 10px;
+}
+
+.ing_container {
+    color: #CD4F39;
+    margin-bottom: 20px;
+}
+
+.container{
+    text-align: left;
+}
+
+.method_img {
+    display: flex;
+    justify-content: center;
+}
+
+.method_step {
+    color: #474747;
+    font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.my_img {
+    border-radius: 50%;
+}
+.starBtn {
+    margin-top: 30px;
+    width: 300px;
+    height: 80px;
+}

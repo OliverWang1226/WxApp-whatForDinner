@@ -1,0 +1,36 @@
+<!--main.wxml-->
+<view class="container">
+
+    <view class="canvasContainer">
+        <canvas style="witdh:400px; height:220px; top:0;left:0;" canvas-id='myCanvas' disable-scroll='true' id="myCanvas"></canvas>
+    </view>
+    <view class="btnContainer">
+        <view>
+            <image  class="enterBtn" 
+                    style="position:{{enter_pos}};top:{{enter_top}}"
+                    src="../../img/enterBtn.png" 
+                    mode="aspectFit"
+                    bindtouchstart="enterTouchStart"
+                    bindtouchend="enterTouchEnd"></image>
+        </view>
+        <view>
+            <image  class="typeBtn" 
+                    style="position:{{type_pos}};top:{{type_top}}" 
+                    src="../../img/typeBtn.png" 
+                    mode="aspectFit"                     
+                    bindtouchstart="typeTouchStart"
+                    bindtouchend="typeTouchEnd">
+                    </image>
+        </view>
+        <view>
+            <image  class="favorBtn" 
+                    style="position:{{favor_pos}};top:{{favor_top}}" 
+                    src="../../img/myFavor.png" 
+                    mode="aspectFit"                     
+                    bindtouchstart="favorTouchStart"
+                    bindtouchend="favorTouchEnd">我的收藏</image>
+        </view>
+
+
+    </view>
+</view>

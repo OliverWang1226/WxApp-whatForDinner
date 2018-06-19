@@ -1,0 +1,22 @@
+/* pages/main/main.wxss */
+#myCanvas {
+    margin-top: -20%;
+    /* border: 1px solid black; */
+}
+
+.enterBtn,
+.typeBtn,
+.favorBtn {   
+    width: 300px;
+    height: 80px;
+}
+
+.typeBtn,
+.favorBtn {
+     margin-top: 25px;
+}
+.btnContainer {
+    position: absolute;
+    bottom: 5%;
+}
+

@@ -1,0 +1,36 @@
+/* pages/menu/menu.wxss */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.img {    
+    border-radius: 50%
+}
+.menu-img {
+    border-radius: 50%
+}
+.menu-name{
+    color: #FA8072;
+    font-size: 25px;
+    font-style: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.detailBtn,
+.reloadBtn {
+    width: 300px;
+    height: 80px;
+}
+.reloadBtn {    
+    margin-top: 25px;
+}
+.btnContainer {
+    position: absolute;
+    bottom: 15%;
+}
+

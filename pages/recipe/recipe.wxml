@@ -1,0 +1,27 @@
+<!--pages/recipe/recipe.wxml-->
+<view class="container">
+    <view class="metiral">
+    <view class="metiral_label" >原料表</view>   
+        <view class="ing_container">{{ingredients}}</view>
+    </view>
+    <view class="step_label">详细做法</view>
+    <view class="method" wx:for="{{method}}" wx:key="item"> 
+        <text class="method_step">
+            {{item.step}}
+        </text>
+        <view class="method_img" wx:if="{{item.img}}">
+            <image class="my_img" src="{{item.img}}" style="width: 200px; height: 200px;"></image>
+        </view>
+    </view>
+    <view class="btnContainer">
+        <image  class="starBtn"
+                style="position:{{star_pos}};top:{{star_top}}" 
+                src="../../img/collectBtn.png" 
+                mode="aspectFit"                     
+                bindtouchstart="starTouchStart"
+                bindtouchend="starTouchEnd">
+        </image>
+    </view>
+
+</view>
+

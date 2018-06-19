@@ -1,0 +1,25 @@
+<!--pages/menu/menu.wxml-->
+
+<view class="container">
+    <view class="menu-info">
+        <view class="img-pad">
+            <view class="menu-img">
+                <image class="img" style="width: 200px; height: 200px;" src="{{src}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="menu-name">
+        <text class="menu-name"> {{name}} </text>
+
+
+
+    </view>
+    <view class="btnContainer">
+        <view class="menu-detail">
+            <image class="detailBtn" style="position:{{detail_pos}};top:{{detail_top}}" src="../../img/detailBtn.png" mode="aspectFit" bindtouchstart="detailTouchStart" bindtouchend="detailTouchEnd"></image>
+        </view>
+        <view class="reload">
+            <image class="reloadBtn" style="position:{{reload_pos}};top:{{reload_top}}" src="../../img/reloadBtn.png" mode="aspectFit" bindtouchstart="reloadTouchStart" bindtouchend="reloadTouchEnd"></image>
+        </view>
+    </view>
+</view>

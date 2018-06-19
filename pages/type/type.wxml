@@ -1,0 +1,18 @@
+<!--pages/type/type.wxml-->
+<view class="container">
+    <view class="selectContainer">
+        <picker mode="selector" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="picker">
+                点我自选：{{array[index]}}
+            </view>
+        </picker>
+    </view>
+    <view class="btnContainer">
+        <view class="decideContainer">
+            <image class="decideBtn" style="position:{{decide_pos}};top:{{decide_top}}" src="../../img/decideBtn.png" mode="aspectFit" bindtouchstart="decideTouchStart" bindtouchend="decideTouchEnd"></image>
+        </view>
+        <view class="randomContainer">
+            <image class="randomBtn" style="position:{{random_pos}};top:{{random_top}}" src="../../img/randomBtn.png" mode="aspectFit" bindtouchstart="randomTouchStart" bindtouchend="randomTouchEnd"></image>
+        </view>
+    </view>
+</view>

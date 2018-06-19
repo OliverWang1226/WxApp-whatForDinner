@@ -1,0 +1,17 @@
+<!--pages/myMenu/myMenu.wxml-->
+<view class="container">
+        <image  class="my_label" 
+                src="../../img/label.png"
+                mode="aspectFill"
+                ></image>
+        <view class="my_menu" wx:for="{{local_menu}}" wx:key="*this">
+        <view class="th">
+            <text class="menu_name">{{item.name}}</text>
+            <image  class="viewBtn"
+                    bindtap="menuBtn" 
+                    data-param="{{item.id}}"
+                    src="../../img/detailBtn.png" 
+                    mode="aspectFit"></image>
+        </view>
+    </view>
+</view>

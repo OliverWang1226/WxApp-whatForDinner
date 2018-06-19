@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/type/type",
+    "pages/recipe/recipe",
+    "pages/myMenu/myMenu"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#EEE0E5",
+    "navigationBarTitleText": "晚饭做什么",
+    "navigationBarTextStyle":"black"
+  }
+}
